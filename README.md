@@ -16,7 +16,7 @@ We want to check if the string contains the word Cockatoo by using our function 
 
 <?php
 	
-	include('include_kakadua_snippet.php'); 
+	include('PHP-Snippets/include_kakadua_snippet.php'); 
 	include_kakadua_snippet('string_contain');
 
 	/*
@@ -45,7 +45,7 @@ a php file to the directory that file too will be run everytime so make sure to 
 
 <?php
 
-	include('include_all_snippets.php'); 
+	include('PHP-Snippets/include_all_snippets.php'); 
 	include_all_snippets();
 
 	/*
