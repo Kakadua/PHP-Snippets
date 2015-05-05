@@ -15,9 +15,10 @@ We want to check if the string contains the word Cockatoo by using our function 
 
 
 <?php
-	include('include_kakadua_snippet.php'); 
-	include_kakadua_snippet('string_contain'); //If you pass in true it will download fresh copies of the snippet from github before including it
 	
+	include('include_kakadua_snippet.php'); 
+	include_kakadua_snippet('string_contain');
+
 	/*
 		Thats it, now the script will check if we already have the snippet downloaded, if not it will download it for us. 
 		Just make sure that the script has permission to create directories/files and modify them.
@@ -43,9 +44,10 @@ a php file to the directory that file too will be run everytime so make sure to 
 
 
 <?php
+
 	include('include_all_snippets.php'); 
-	include_all_snippets(); //If you pass in true it will download fresh copies of all the snippets from github before including them
-	
+	include_all_snippets();
+
 	/*
 		Thats it, we now have all kakadua snippets included
 	*/
