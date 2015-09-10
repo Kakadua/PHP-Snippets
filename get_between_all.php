@@ -18,7 +18,7 @@
 	 * @param String $after The substring after the string you want
 	 * @param array $array An internal array, don't pass it in
 	 *
-	 * @return array The function returns the read data or FALSE on failure. 
+	 * @return array The function returns the read data or an empty array on failure. 
 	 *
 	 *	@version 1
 	 */

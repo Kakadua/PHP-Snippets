@@ -17,7 +17,7 @@
 	 * @param String $before The substring before the string you want
 	 * @param String $after The substring after the string you want
 	 *
-	 * @return String The function returns the read data or FALSE on failure. 
+	 * @return String The function returns the read data or an empty string on failure. 
 	 *
 	 *	@version 1
 	 */
