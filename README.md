@@ -28,3 +28,6 @@ We want to check if the string contains the word Cockatoo by using our function 
 	}
 
 ?>
+
+All scripts have PHPDoc written for apigen
+http://www.apigen.org/
