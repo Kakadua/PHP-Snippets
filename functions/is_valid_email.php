@@ -16,7 +16,7 @@
 	 *
 	 * @return boolean true if the domain is valid otherwise false
 	 *
-	 *	@version 1
+	 * @version 1
 	 */
 	function is_valid_email($email, $blacklist = array()){
 				
